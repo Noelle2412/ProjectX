@@ -1,0 +1,348 @@
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/Cudos/Get Ready to Work/BootCamp/BootcampProjects/vscode-prework-exercise (main)
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/Cudos/Get Ready to Work/BootCamp/BootcampProjects
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/Cudos/Get Ready to Work/BootCamp
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/Cudos/Get Ready to Work
+$ cd..
+bash: cd..: command not found
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/Cudos/Get Ready to Work
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/Cudos
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop
+$ mkdir ProjectX
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop
+$ cd ProjectX/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ mkdir docs
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ cd docs/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs
+$ mkdir reports
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs
+$ cd reports/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs/reports
+$ touch report_one.txt
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs/reports
+$ touch report_two.txt
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs/reports
+$ ls
+report_one.txt  report_two.txt
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs/reports
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs
+$ mkdir images
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs
+$ ls
+images/  reports/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ mkdir src
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ cd src/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/src
+$ mkdir html
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/src
+$ touch index.html
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/src
+$ ls
+html/  index.html
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/src
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ mkdir css
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ cd css/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/css
+$ touch style.css
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/css
+$ ls
+style.css
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/css
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ mkdir js
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ cd js/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/js
+$ touch script.js
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/js
+$ ls
+script.js
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/js
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ ls
+css/  docs/  js/  src/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ mv css/ src/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ mv js/ src/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ cd src/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/src
+$ ls
+css/  html/  index.html  js/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/src
+$ mv index.html html/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/src
+$ ls
+css/  html/  js/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/src
+$ cd html/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/src/html
+$ ls
+index.html
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/src/html
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/src
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ ls
+docs/  src/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ mkdir data
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ cd data/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/data
+$ touch data.txt
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/data
+$ ls
+data.txt
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/data
+$ rm data.txt
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/data
+$ ls
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/data
+$ echo "Hello Data" > data.txt
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/data
+$ ls
+data.txt
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/data
+$ cat data.txt
+Hello Data
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/data
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX
+$ git init
+Initialized empty Git repository in C:/Users/aisch/Desktop/ProjectX/.git/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (master)
+$ git add .
+warning: in the working copy of 'data/data.txt', LF will be replaced by CRLF the next time Git touches
+it
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (master)
+$ git commit -m "initial setup"
+[master (root-commit) d55a87b] initial setup
+ 6 files changed, 1 insertion(+)
+ create mode 100644 data/data.txt
+ create mode 100644 docs/reports/report_one.txt
+ create mode 100644 docs/reports/report_two.txt
+ create mode 100644 src/css/style.css
+ create mode 100644 src/html/index.html
+ create mode 100644 src/js/script.js
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (master)
+$ cd docs/images/
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs/images (master)
+$ touch .gitkeep
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs/images (master)
+$ ls
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs/images (master)
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX/docs (master)
+$ cd ..
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (master)
+$ git add -All
+error: unknown switch `l'
+usage: git add [<options>] [--] <pathspec>...
+
+    -n, --[no-]dry-run    dry run
+    -v, --[no-]verbose    be verbose
+
+    -i, --[no-]interactive
+                          interactive picking
+    -p, --[no-]patch      select hunks interactively
+    --[no-]auto-advance   auto advance to the next file when selecting hunks interactively
+    -U, --unified <n>     generate diffs with <n> lines context
+    --inter-hunk-context <n>
+                          show context between diff hunks up to the specified number of lines
+    -e, --[no-]edit       edit current diff and apply
+    -f, --[no-]force      allow adding otherwise ignored files
+    -u, --[no-]update     update tracked files
+    --[no-]renormalize    renormalize EOL of tracked files (implies -u)
+    -N, --[no-]intent-to-add
+                          record only the fact that the path will be added later
+    -A, --[no-]all        add changes from all tracked and untracked files
+    --[no-]ignore-removal ignore paths removed in the working tree (same as --no-all)
+    --[no-]refresh        don't add, only refresh the index
+    --[no-]ignore-errors  just skip files which cannot be added because of errors
+    --[no-]ignore-missing check if - even missing - files are ignored in dry run
+    --[no-]sparse         allow updating entries outside of the sparse-checkout cone
+    --[no-]chmod (+|-)x   override the executable bit of the listed files
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (master)
+$ git add -A
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (master)
+$ git remote add origin git@github.com:Noelle2412/ProjectX.git
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (master)
+$ git branch -M main
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (main)
+$ git push -u origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (11/11), 675 bytes | 337.00 KiB/s, done.
+Total 11 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Noelle2412/ProjectX.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (main)
+$ git add -all
+error: did you mean `--all` (with two dashes)?
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (main)
+$ git add --all
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (main)
+$ git commit -m "added the empty folder to track"
+[main f0e39f8] added the empty folder to track
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 docs/images/.gitkeep
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (main)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 428 bytes | 428.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:Noelle2412/ProjectX.git
+   d55a87b..f0e39f8  main -> main
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (main)
+$ git branch "dev"
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (main)
+$ git checkout dev
+Switched to branch 'dev'
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (dev)
+$ git add -A
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (dev)
+$ git commit "Added setup to index.html"
+error: pathspec 'Added setup to index.html' did not match any file(s) known to git
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (dev)
+$ git commit -m "Added setup to index.html"
+[dev 9e279e4] Added setup to index.html
+ 1 file changed, 11 insertions(+)
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (dev)
+$ git push
+fatal: The current branch dev has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dev
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (dev)
+$ git push --set-upstream origin dev
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 571 bytes | 571.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/Noelle2412/ProjectX/pull/new/dev
+remote:
+To github.com:Noelle2412/ProjectX.git
+ * [new branch]      dev -> dev
+branch 'dev' set up to track 'origin/dev'.
+
+aisch@DESKTOP-STG0J1I MINGW64 ~/Desktop/ProjectX (dev)
+$
